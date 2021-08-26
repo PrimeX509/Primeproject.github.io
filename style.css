@@ -1,0 +1,189 @@
+/* CSS reset */
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:3px solid #c7edff;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+/* End CSS reset */
+
+#about .row .line-dec {
+    width: 20%;
+    height: 2px;
+    background-color: wheat;
+    margin-left: 445px;
+    
+
+}
+
+#gallery .row .line-dec {
+    width: 28%;
+    height: 2px;
+    background-color: wheat;
+    margin-left:400px;
+}
+
+
+/* error */
+
+/* .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff5500" fill-opacity="1" d="M0,160L144,288L288,256L432,96L576,256L720,192L864,224L1008,64L1152,160L1296,32L1440,192L1440,320L1296,320L1152,320L1008,320L864,320L720,320L576,320L432,320L288,320L144,320L0,320Z"></path></svg>');
+    background-size: 1000px 100px;
+
+} */
+
+/* .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    background-position-x: 400px;
+}
+
+.wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    background-position-x: 300px;
+} */
+
+/* /error */
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: rgb(96, 200, 248);
+}
+
+.jumbotron ul li img {
+    width:50px;
+    height: 50px;
+}
+
+
+#gallery {
+    background-color: rgb(56,93,112);
+}
+
+.sci {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.sci li a {
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+
+}
+
+.sci li a img {
+    filter: blur(0px) brightness(1) invert(1);
+}
+
+
+section {
+    padding-top: 4rem;
+}
